@@ -76,7 +76,6 @@ export default function NoteEditor({ room }: { room: string }) {
 
           if (typeof updatedNote.content !== 'string') return;
 
-          // Never replace text while this browser has unsaved changes.
           if (contentRef.current !== lastSavedRef.current) return;
 
           lastSavedRef.current = updatedNote.content;
@@ -206,7 +205,7 @@ export default function NoteEditor({ room }: { room: string }) {
 
           <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
             <p className="text-xs text-[#777777]">
-              A simple space for your thoughts.
+              AFRID'S UNNECESSARY CONTRIBUTION TO HUMANITY.
             </p>
 
             <div className="flex items-center gap-2">
@@ -230,8 +229,11 @@ export default function NoteEditor({ room }: { room: string }) {
         </section>
 
         <footer className="mt-6 border-t border-[#333333] pt-4 text-center">
-          <p className="text-xs text-[#666666]">
-            Made for sharing. Built for simplicity.
+          <p className="text-xs font-semibold tracking-[0.18em] text-[#888888]">
+            A FILM BY AFRID
+          </p>
+          <p className="mt-1 text-[10px] tracking-wider text-[#666666]">
+            EXCEPT IT'S A WEBSITE.
           </p>
         </footer>
       </div>
