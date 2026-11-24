@@ -161,7 +161,7 @@ export default function NoteEditor({ room }: { room: string }) {
             <h1 className="text-2xl font-semibold tracking-tight">
               Death<span className="text-[#B8A6A0]">Note</span>
             </h1>
-            <p className="mt-1 text-xs text-[#777777]">Your words. Your space.</p>
+            <p className="mt-1 text-xs text-[#777777]">Your brain's backup plan.</p>
           </a>
           <span className="rounded-full border border-[#333333] px-3 py-1.5 text-xs text-[#888888]">
             Shared notepad

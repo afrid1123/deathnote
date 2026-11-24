@@ -38,7 +38,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 text-sm text-[#888888] sm:text-base">
-            The simplest way to share text online
+            Because apparently, you can't remember shit.
           </p>
         </header>
 
@@ -51,7 +51,7 @@ export default function Home() {
               setNoteName(e.target.value);
               setError('');
             }}
-            placeholder="Enter your notepad name..."
+            placeholder="What are we forgetting today?"
             autoComplete="off"
             spellCheck={false}
             className="w-full rounded-lg border border-[#383838] bg-[#202020] px-5 py-4 text-base text-white outline-none transition placeholder:text-[#666666] focus:border-[#777777]"
